@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width-device-width,initial-scale=1'>
+  <link rel="stylesheet" href="../CSS/bootstrap.css"/>
+  <script src="../JS/jquery.min.js"></script>
+  <script src="../JS/popper.min.js"></script>
+  <script src="../JS/bootstrap.min.js"></script>
+  <title></title>
+  <link rel="stylesheet" href="../CSS/header.css"/>
+</head>
+<body>
+<div class="container">
+  <div id="demo" class="carousel mt-4" data-ride="carousel">
+    <!-- 内部第一层 轮播图片-->
+    <div class="carousel-inner">
+      <div class="carousel-item active"><a href="#"><img src="../img/index/banner1.png" alt="" class="w-100"/></a></div>
+      <div class="carousel-item"><a href="#"><img src="../img/index/banner2.png" alt="" class="w-100"/></a></div>
+      <div class="carousel-item"><a href="#"><img src="../img/index/banner3.png" alt="" class="w-100"/></a></div>
+      <div class="carousel-item"><a href="#"><img src="../img/index/banner4.png" alt="" class="w-100"/></a></div>
+    </div>
+    <!-- 内部第二层 导航标识符-->
+    <ul class="carousel-indicators list-unstyled">
+      <li data-slide-to="0" data-target="#demo" class="active my_cursor"></li>
+      <li data-slide-to="1" data-target="#demo" class="my_cursor"></li>
+      <li data-slide-to="2" data-target="#demo" class="my_cursor"></li>
+      <li data-slide-to="3" data-target="#demo" class="my_cursor"></li>
+    </ul>
+    <!-- 内部第三层 左右切换-->
+    <a href="#demo" class="carousel-control-prev" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#demo" class="carousel-control-next" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</div>
+</body>
+</html>

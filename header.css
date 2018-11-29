@@ -1,0 +1,358 @@
+body{
+    background:#F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration:none !important;
+    color:#d8d3d3 !important;
+}
+.my_small{
+    fontsize:0.8rem;
+}
+.my_color{
+    color:#c3c3c3;
+}
+.my_a_color{
+    color:#808080 !important;
+}
+.my_z-index{
+    z-index: 1000;
+    right:36px;
+    top:4px;
+    cursor: pointer;
+}
+.my_btn{
+    display:inline-block;
+    width:14px;
+    height:7px;
+    background:url(../img/header/header_normal.png);
+}
+header>ul.nav .active{
+    color:#333 !important;
+}
+/*以下为footer.html样式*/
+.my_table{
+    padding-right:-10px;
+}
+.my_table th,.my_table td{
+    border-top:0 !important;
+    border-bottom:0 !important;
+    text-align:center;
+}
+/*以下为carousel.html样式*/
+#demo li{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#fff;
+}
+#demo li.active{
+    background: #0aa1ed;
+}
+#demo a{
+    background:rgba(0,0,0,0.3);
+    width:3%;
+    border-radius:5px;
+}
+.my_cursor{
+    cursor:pointer;
+}
+/*以下为xz_floor样式*/
+.header{
+    font-size:1.5vw;
+    font-style:"黑体";
+    margin-left:10px;
+}
+.my_floor{
+    background:#ddd;
+}
+.floor1_left{
+    width:61%;
+    height:377px;
+}
+.floor1_right{
+    width:38%;
+    height:377px;
+}
+.floor2_left{
+    width:37%;
+    height:240px;
+}
+.floor2_right{
+    width:20%;
+    height:240px;
+}
+.desc{
+    width:40%;
+    height:40%;
+    position: absolute;
+}
+.floor1_left .desc{
+    top:5%;left:6%;
+}
+.floor1_right .desc{
+    top:4%;left:6%;
+}
+.floor2_left .desc{
+    top:13%;left:9%;
+}
+.name{
+    font-size:2.5vw;
+}
+.floor2_left .name{
+    font-size:1.5vw;
+}
+.floor2_right .name{
+    font-size:0.5vw;
+    margin-bottom:0px;
+}
+.detail{
+    font-size:1vw;
+}
+.price{
+    font-size:2vw;
+    color:#0AA1ED;
+    margin-bottom:12px;
+}
+.floor2_right .price{
+    font-size:1.5vw;
+    margin-bottom:2px;
+}
+.view{
+    height:30px;
+    line-height:15px;
+    min-width:110px;
+    background:linear-gradient(to bottom, #27b1f6 0%, #0aa1ed 100%);
+    color:#fff;
+    font-size:1vw !important;
+}
+.floor1_right.view{
+    width:75%;
+}
+.floor1_left.view{
+    width:75%;
+}
+.floor2_right.view{
+    width:40%;
+}
+.floor2_left.view{
+    width:40%;
+    margin-bottom: 2px;
+}
+.my_floor>img{
+    transition:all 1s;
+}
+.floor1_right>img{
+    position: absolute;
+}
+.floor1_left>img{
+    position: absolute;
+}
+.floor2_left>img{
+    position: absolute;
+}
+.my_floor>img:hover{
+    transform:scale(1.1);
+}
+.floor1_left>img{
+    top:8%;left:25%;
+    width:65%;
+}
+.floor1_right>img{
+    top:25%;left:18%;
+}
+.floor2_left>img{
+    top:22%;left:50%;
+}
+#img1{
+    width:15%;
+}
+/*以下为product_list样式*/
+.my_bg{
+    background-image:linear-gradient(to bottom,#f0f0f0 0%,#e0e0e0 100%);
+    height:38px;
+    line-height:38px;
+    font-size:13px;
+    color:#808080;
+    border-radius:1px;
+}
+.my_price{
+    color:#0AA1ED;
+    font-size:16px;
+    font-weight:bold;
+}
+.my_span{
+    display:inline-block;
+    height:32px;
+    line-height:24px;
+    width:32px;
+    text-align: center;
+    background-image:linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);
+    color:white;
+    font-size:32px;
+}
+#number{
+    width:50px;
+    height:32px;
+    padding-left:18px;
+}
+.my_button{
+    padding:0;
+    width:95px;
+    height:32px;!important;
+}
+.car_btn{
+    display:inline-block;
+    width:55px;
+    height:25px;
+    line-height:20px;
+    background-image:linear-gradient(to bottom, #27b1f6 0%, #0aa1ed 100%);
+    font-size:12px;
+    padding:0;
+}
+.my_img img:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+}
+.row>div>.pagination>li>a{
+    margin-left:3px;
+    border-radius:5px;
+}
+/*以下样式为页面引进页头和页尾*/
+@media screen and (min-width: 991px) {
+    .my_header{
+        width: 100%;
+    }
+    .my_footer{
+        width: 100%;
+        height: 28rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .my_header{
+        width:100%;
+        height:14rem;
+    }
+    .my_footer{
+        width:100%;
+        height:28rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .my_header{
+        width: 100%;
+        height: 14rem;
+    }
+    .my_footer{
+        width: 100%;
+        height: 45rem;
+    }
+}
+/*以下为product_detail样式*/
+.my_bread{
+    font-style:"黑体";
+    font-size:12px;
+    font-weight:bold;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content:">";
+}
+.my_list>a>img{
+    width:84px;
+    height:84px;
+}
+.my_detail{
+    height:125px;
+}
+.my_detail>span.h1{
+    color:#0AA1ED !important;
+}
+.my_span2{
+    width: 100px;
+    display:inline-block;
+}
+.my_detail_number>button{
+    border:0px;
+    width: 36px;
+    height: 34px;
+    line-height:34px;
+    background:#ddd;
+    cursor: pointer;
+}
+.my_detail_number>input{
+    width:38px;
+    height:34px;
+    padding-left:13px;
+    border:1px solid #ddd;
+}
+.my_detail_button>a{
+    display: inline-block;
+    text-decoration:none;
+    text-align: center;
+    height:52px;
+    border-radius:3px;
+}
+.my_detail_button>a.button1{
+    border:1px solid #ddd;
+    width:162px;
+    line-height: 52px;
+    background:linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);
+    color:#0AA1ED;
+}
+.my_detail_button>a.button2{
+    width:162px;
+    line-height: 52px;
+    background:linear-gradient(to bottom, #27b0f6 0%, #0aa1ed 100%);
+    color:white;
+}
+.my_detail_button>a.button3{
+    width:54px;
+    background:linear-gradient(to bottom, #27b0f6 0%, #0aa1ed 100%);
+    color:white;
+}
+.my_roll{
+    border:1px solid #ccc;
+}
+.my_detail_p{
+    width:100%;
+    font-size:10px;
+    font-weight: bold;
+    text-align:center;
+}
+.my_detail_list{
+    width:33%;
+    text-align: left;
+    font-size:6px!important;
+    margin-bottom:5px;
+    padding-right:2px;
+}
+.my_detail_list>a{
+    color:black;
+    font-weight:lighter;
+}
+.my_detail_a{
+    display:inline-block;
+    width:80px;
+    height:38px;
+    text-align: center;
+    margin-left:20px;
+    font-size:16px;
+    color:#808080;
+    background:transparent;
+    border-bottom:3px solid #0AA1ED;
+}
+.my_li_button{
+    width:115px;
+    height: 38px;
+    line-height:20px;
+    background:linear-gradient(to bottom, #27b0f6 0%, #0aa1ed 100%);
+    color:white;
+    font-size:14px;
+}
+div.flex-row-reverse>div.col-lg-3>ul>li>a{
+    width:115px;
+    height:38px;
+    line-height:26px;
+    border:0;
+}
